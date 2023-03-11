@@ -64,10 +64,10 @@ public class Inventory2Linked {
 
 
     /**
-     * Reads the contents of inFileName and stores the unique IDs in
+     * Reads the contents of inFile and stores the unique IDs in
      * list. Maintains statistics about the items read.
      *
-     * @param inFileName String is the inventory file name
+     * @param inFile Scanner for the inventory file 
      * @param list LinkedList of unique IDs
      */
     private static void readInventoryFile(Scanner inFile, LinkedList<Integer>list) {
@@ -96,10 +96,10 @@ public class Inventory2Linked {
 
 
     /**
-     * Reads the contents of upFileName and stores the unique IDs in
+     * Reads the contents of upFile and stores the unique IDs in
      * list. Maintains statistics about the items read.
      *
-     * @param upFileName String is the update file name
+     * @param upFile Scanner for the update file name
      * @param list LinkedList of unique IDs
      */
     private static void readUpdateFile(Scanner upFile, LinkedList<Integer> list) {
