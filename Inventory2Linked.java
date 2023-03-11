@@ -46,7 +46,7 @@ public class Inventory2Linked {
      * Opens a Scanner for the file called fileName, if unable the  
      * method will exit the program.
      *
-     * @param fileName String is the inventory file name
+     * @param fileName String is the file name
      * @return Scanner object for the file fileName
      */
     private static Scanner openFileScanner(String fileName) {
